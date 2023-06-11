@@ -44,4 +44,14 @@ highlights:
         link: /personal/Pum_K
       - title: etc...
         link: /personal/
+  - header: 前朝历史
+    highlights:
+      - title: 史记
+        link: /old/Shiji
+      - title: 汉书
+        link: /old/Hanshu
+      — title: 后汉书
+        link: /old/Houhanshu
+      — title: 三国志
+        link: /old/Sanguozhi
 ---
