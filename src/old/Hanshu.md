@@ -1,9 +1,9 @@
 ---
 title: 汉书
-icon: material-symbols:history
+icon: material-symbols:history-rounded
 category: old
 tag:
   - hanshu
 ---
 
-记pkuhub诸事。
+记 pkuhub 诸事。

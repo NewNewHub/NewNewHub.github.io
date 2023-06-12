@@ -8,4 +8,9 @@ export const zhNavbar = navbar([
     link: "/global/",
   },
   { text: "列传", icon: "material-symbols:docs-outline", link: "/personal/" },
+  {
+    text: "往事",
+    icon: "material-symbols:history-rounded",
+    link: "/old/",
+  },
 ]);

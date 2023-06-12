@@ -1,6 +1,6 @@
 ---
 title: 后汉书
-icon: material-symbols:history
+icon: material-symbols:history-rounded
 category: old
 tag:
   - houhanshu
