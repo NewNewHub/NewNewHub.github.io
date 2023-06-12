@@ -45,13 +45,16 @@ highlights:
       - title: etc...
         link: /personal/
   - header: 前朝历史
+    image: /assets/old.svg
+    bgImage: /assets/bg/4-light.svg
+    bgImageDark: /assets/bg/4-dark.svg
     highlights:
       - title: 史记
         link: /old/Shiji
       - title: 汉书
         link: /old/Hanshu
-      — title: 后汉书
+      - title: 后汉书
         link: /old/Houhanshu
-      — title: 三国志
+      - title: 三国志
         link: /old/Sanguozhi
 ---
