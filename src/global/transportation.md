@@ -8,4 +8,4 @@ tag:
 
 这里是交通系统的主页。
 
-![](/assets/images/transportation.svg)
+<object data="/assets/images/transportation.svg" type="image/svg+xml" style="display: block; width: 100%"></object>

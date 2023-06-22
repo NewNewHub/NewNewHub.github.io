@@ -12,7 +12,7 @@ def all_svg(
 ):
     with open(os.path.join(SAVE_DIR, "transportation.svg"), "w") as svg:
         svg.write(
-            f"<svg xmlns='http://www.w3.org/2000/svg' width='{width}' height='{height}'>\n"
+            f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}">\n"""
         )
         svg.write(background("gray"))
         svg.write(axis(width, height))
@@ -45,7 +45,9 @@ def close_group():
 
 def styles(groups: list[str]):
     group_styles = " ".join([f"#{group}:hover{{opacity:1}}" for group in groups])
-    default_styles = "text{fill:white;} circle{fill:black;} *{transition: all .5s ease-out;}"
+    default_styles = (
+        "text{fill:white;} circle{fill:black;} *{transition: all .5s ease-out;}"
+    )
     return f"""
   <style>
   {group_styles} {default_styles}
