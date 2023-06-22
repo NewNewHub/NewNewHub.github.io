@@ -7,3 +7,5 @@ tag:
 ---
 
 这里是交通系统的主页。
+
+![](/assets/images/transportation.svg)
